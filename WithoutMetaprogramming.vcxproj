@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="gradient_ascent_dyn.hpp" />
+    <ClInclude Include="gradient_ascent_optimizer.hpp" />
+    <ClInclude Include="gradient_calculator.hpp" />
+    <ClInclude Include="vector_utils.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="gradient_ascent_dyn.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
